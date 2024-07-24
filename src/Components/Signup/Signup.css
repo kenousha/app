@@ -1,42 +1,53 @@
-* {
-    margin: 0;
-    font-family: "Poppins", sans-serif;
-    box-sizing: border-box;
-    text-decoration: none
-}
+
 .container {
-    margin: 2rem 40rem ;
+    margin: 0rem 30rem ;
     padding: 0;
   }
   .signup-text {
-    margin-bottom: 1rem;
+    font-size: 1rem;
+    margin: 0.1rem 0rem;
     text-align: center;
   }
   .already-member {
     text-align: center;
-    margin: 1rem;
+    margin: 0rem;
   }
   .already-member  span{
     color: #3c79a7;
     font-weight: bold;
     cursor: pointer;
   }
-input, select {
+input {
+    margin: 0rem;
     width: 100%;
-    padding: 0.75rem;
+    border: 0.01rem solid #ccc;
+    border-radius: 0.25rem;
+}
+
+select {
+    margin: 0rem;
+    width: 100%;
+    padding: 0.5rem;
     border: 0.01rem solid #ccc;
     border-radius: 0.25rem;
 }
 
 .form-group label {
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    display: block;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
     display: block;
     font-weight: bold;
 }
 
 .btn-group {
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     display: flex;
     justify-content: space-evenly;
 }
